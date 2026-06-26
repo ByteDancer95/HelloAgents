@@ -1,3 +1,4 @@
+from get_weather import get_weather
 AGENT_SYSTEM_PROMPT = """
 你是一个智能旅行助手。你的任务是分析用户的请求，并使用可用工具一步步地解决问题。
 
@@ -22,3 +23,4 @@ Action的格式必须是以下之一：
 
 请开始吧！
 """
+
